@@ -56,7 +56,7 @@ const Apology = () => {
         </motion.p>
 
         <motion.p variants={itemVariants} className="text-xl md:text-2xl mb-6 text-gray-800">
-          I'm sorry for what I said,
+          I apologize for what I said,
         </motion.p>
 
         <motion.p variants={itemVariants} className="text-xl md:text-2xl mb-6 text-gray-800">

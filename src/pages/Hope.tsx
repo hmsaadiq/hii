@@ -88,9 +88,7 @@ I'm learning. And I'm sorry.
           <div className="mt-8 p-4 bg-white rounded-lg shadow-md">
             <h3 className="text-lg font-medium mb-4">Push-ups for every frown</h3>
             <div className="flex items-center justify-center">
-              <div className="bg-pink-100 px-8 py-3 rounded-lg shadow-lg border border-pink-200 mr-6">
-                <span className="text-3xl font-bold text-gray-800">{pushupCount}</span>
-              </div>
+              <span className="text-3xl font-bold mr-6">{pushupCount}</span>
               <button
                 onClick={() => setPushupCount(prev => prev + 1)}
                 className="bg-gray-800 text-white px-4 py-2 rounded-full hover:bg-gray-700 transition-colors ml-4"
@@ -99,7 +97,7 @@ I'm learning. And I'm sorry.
               </button>
             </div>
             <p className="text-sm text-gray-600 mt-2">
-              I'll do these push-ups as a reminder to think before I speak. (youre right this is proof i speak too much 😆)
+              I'll do these push-ups as a reminder to think before I speak. (youre right this is proof i speak too much 😆) 
             </p>
           </div>
         </div>
